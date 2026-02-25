@@ -1,19 +1,29 @@
 # customer-segmentation-analysis
 
-This repository contains code and analysis for a retail customer segmentation project. The project aims to analyze customer purchasing behavior and segment customers into distinct groups based on their Recency, Frequency, and Monetary (RFM) attributes. By segmenting customers, businesses can tailor their marketing strategies and services to specific customer segments, ultimately improving customer satisfaction and loyalty.
+This repository originally contains analysis assets for retail customer segmentation.
 
-**Methodology:**
+## Added: Handwritten Diagnosis to ICD-10 Suggestion App
 
-**Data Preprocessing:** The data is cleaned to handle missing values, remove outliers, and ensure data quality.
+I added a small Streamlit application (`app.py`) that can:
 
-**RFM Analysis:** Recency, Frequency, and Monetary values are calculated for each customer to understand their purchasing patterns.
+- Accept a handwritten diagnosis image upload and run OCR (via `pytesseract` + `Pillow`), or
+- Accept diagnosis text manually,
+- Suggest top ICD-10 matches using keyword-overlap scoring against a local reference file (`icd_reference.json`).
 
-**Clustering:** Clustering algorithms such as K-Means, DBSCAN, and hierarchical clustering are applied to segment customers based on their RFM attributes.
+> This is a prototype for RCM coding support. It is **not** a replacement for certified coding review.
 
-**Evaluation:** The performance of each clustering algorithm is evaluated using metrics such as silhouette score, elbow method, or dendrogram.
+### Run locally
 
-**Interpretation:** The characteristics of each customer segment are interpreted, providing actionable insights for marketing and business strategies.
+```bash
+pip install streamlit pytesseract pillow
+streamlit run app.py
+```
 
-**Expected Outcome:**
+If OCR does not work on your machine, install the Tesseract engine:
 
-The expected outcome of this project is a set of well-defined customer segments with actionable insights for marketing and business strategies. By understanding the distinct needs and preferences of each segment, businesses can tailor their offerings and communication strategies to enhance customer satisfaction and loyalty, ultimately leading to increased sales and profitability.
+- Ubuntu/Debian: `sudo apt-get install tesseract-ocr`
+- macOS (Homebrew): `brew install tesseract`
+
+### Notes on your request
+
+I cannot directly connect to your ChatGPT profile or private "RCM automation project" from this environment. The app here is implemented locally in this repository and can be integrated with your external automation stack once you share API/project details.

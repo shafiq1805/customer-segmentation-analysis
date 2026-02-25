@@ -1,0 +1,12 @@
+{
+  "I10": ["essential hypertension", "high blood pressure"],
+  "E11.9": ["type 2 diabetes mellitus without complications", "type 2 diabetes"],
+  "E11.21": ["type 2 diabetes mellitus with diabetic nephropathy", "diabetes with nephropathy"],
+  "J18.9": ["pneumonia unspecified organism", "community acquired pneumonia"],
+  "J06.9": ["acute upper respiratory infection", "viral upper respiratory tract infection"],
+  "N39.0": ["urinary tract infection", "uti"],
+  "M54.5": ["low back pain", "lumbago"],
+  "M17.9": ["osteoarthritis of knee", "knee osteoarthritis"],
+  "F32.9": ["major depressive disorder single episode unspecified", "depression"],
+  "G43.909": ["migraine unspecified not intractable without status migrainosus", "migraine headache"]
+}
