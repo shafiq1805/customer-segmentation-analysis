@@ -17,3 +17,7 @@ This repository contains code and analysis for a retail customer segmentation pr
 **Expected Outcome:**
 
 The expected outcome of this project is a set of well-defined customer segments with actionable insights for marketing and business strategies. By understanding the distinct needs and preferences of each segment, businesses can tailor their offerings and communication strategies to enhance customer satisfaction and loyalty, ultimately leading to increased sales and profitability.
+
+## Additional Documentation
+
+- [ED Profee + Facility Coding Automation – Master System Prompt](docs/ed-coding-automation-system-prompt.md): a structured prompt specification for an ED coding automation engine covering document ingestion, clinical extraction, ICD-10-CM coding, CPT/HCPCS coding, E/M leveling, facility leveling, critical care detection, compliance checks, and audit-focused output.
